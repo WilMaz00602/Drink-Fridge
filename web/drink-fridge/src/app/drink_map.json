@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Old Fashioned",
+        "ingredients": [
+            "2 oz bourbon or rye whiskey",
+            "1 sugar cube",
+            "2 dashes Angostura bitters",
+            "Orange twist"
+        ],
+        "thumbnail": "oldfashioned.png",
+        "description": "A classic cocktail made with whiskey, sugar, and bitters, garnished with an orange twist.",
+        "id": 0
+    },
+    {
+        "name": "Daquiri",
+        "ingredients": [
+            "2 oz white rum",
+            "1 oz fresh lime juice",
+            "1 oz simple syrup"
+        ],
+        "thumbnail": "daquiri.png",
+        "description": "A simple yet delicious cocktail made with rum, lime juice, and sugar syrup.",
+        "id": 1
+    },
+    {
+        "name": "Sidecar",
+        "ingredients": [
+            "2 oz cognac",
+            "1 oz orange liqueur",
+            "1 oz lemon juice"
+        ],
+        "thumbnail": "sidecar.png",
+        "description": "A classic cocktail with a balance of cognac, orange liqueur, and lemon juice.",
+        "id": 2
+    },
+    {
+        "name": "Margarita",
+        "ingredients": [
+            "2 oz tequila",
+            "1 oz lime juice",
+            "1 oz triple sec",
+            "Salt for rimming the glass"
+        ],
+        "thumbnail": "margarita.png",
+        "description": "A tangy cocktail made with tequila, lime juice, and triple sec, served in a salt-rimmed glass.",
+        "id": 3
+    }
+]
