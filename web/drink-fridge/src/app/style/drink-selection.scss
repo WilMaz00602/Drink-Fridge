@@ -1,0 +1,46 @@
+@use "./_variables.scss" as var;
+
+.drink-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+
+    .drink-selection-button {
+        width: 90vw;
+        min-width: 200px;
+        max-width: 400px;
+        height: 90vw;
+        min-width: 200px;
+        max-height: 400px;
+        background-color: var.$surface2;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: var.$radius;
+        border: 1px solid var.$overlay1;
+        box-shadow: var.$shadow;
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+        img {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: var.$radius;
+        }
+
+        span {
+            color: var.$text;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+    }
+}

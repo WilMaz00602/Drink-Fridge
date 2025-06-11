@@ -1,5 +1,5 @@
 {
-    0: {
+    "0": {
         "name": "Old Fashioned",
         "ingredients": [
             "2 oz bourbon or rye whiskey",
@@ -11,7 +11,7 @@
         "description": "A classic cocktail made with whiskey, sugar, and bitters, garnished with an orange twist.",
         "id": 0
     },
-    1: {
+    "1": {
         "name": "Daquiri",
         "ingredients": [
             "2 oz white rum",
@@ -22,18 +22,23 @@
         "description": "A simple yet delicious cocktail made with rum, lime juice, and sugar syrup.",
         "id": 1
     },
-    2: {
+    "2": {
         "name": "Sidecar",
         "ingredients": [
-            "2 oz cognac",
-            "1 oz orange liqueur",
-            "1 oz lemon juice"
+            {"type": "Congnac", "subtype": "VSOP", "amount": "60", "unit": "ml"},
+            {"type": "Orange Liqueur", "subtype": "Cointreau", "amount": "22.5", "unit": "ml"},
+            {"type": "Lemon Juice", "amount": "22.5", "unit": "ml"},
+            {"type": "Simple Syrup", "amount": "7.5", "unit": "ml"}
+        ],
+        "garnishes": [
+            {"type": "Sugar", "amount": "0.5", "unit": "rim"}
         ],
         "thumbnail": "sidecar.png",
-        "description": "A classic cocktail with a balance of cognac, orange liqueur, and lemon juice.",
+        "description": "A classic cocktail with a balance of cognac, orange liqueur, and lemon juice, served with a sugared rim.",
+        "tags": ["Tart", "Citrusy"],
         "id": 2
     },
-    3: {
+    "3": {
         "name": "Margarita",
         "ingredients": [
             "2 oz tequila",
@@ -43,5 +48,53 @@
         ],
         "thumbnail": "margarita.png",
         "description": "A tangy cocktail made with tequila, lime juice, and triple sec, served in a salt-rimmed glass.",
-    }
+    },
+    "4": {
+        "name": "Jersey",
+        "ingredients": [
+            {"type": "Hard Cider", "amount": "90", "unit": "ml"},
+            {"type": "Apple Brandy", "amount": "30", "unit": "ml"},
+            {"type": "Simple Syrup", "amount": "7.5", "unit": "ml"}
+            {"type": "Angostura Bitters", "amount": "2", "unit": "dash"}
+        ],
+        "garnishes": [
+            {"type": "Lemon Peel", "amount": "1", "unit": "twist"}
+        ],
+        "thumbnail": "jersey.png",
+        "description": "A refreshing cocktail combining hard cider, apple brandy, and a hint of bitters, garnished with lemon peel.",
+        "tags": ["Tart", "Refreshing"],
+        "id": 4
+    },
+    "5": {
+        "name": "Jersey",
+        "ingredients": [
+            {"type": "Hard Cider", "amount": "90", "unit": "ml"},
+            {"type": "Apple Brandy", "amount": "30", "unit": "ml"},
+            {"type": "Simple Syrup", "amount": "7.5", "unit": "ml"}
+            {"type": "Angostura Bitters", "amount": "2", "unit": "dash"}
+        ],
+        "garnishes": [
+            {"type": "Lemon Peel", "amount": "1", "unit": "twist"},
+        ],
+        "thumbnail": "jersey.png",
+        "description": "A refreshing cocktail combining hard cider, apple brandy, and a hint of bitters, garnished with lemon peel.",
+        "tags": ["Tart", "Refreshing"],
+        "id": 5
+    },
+    "6": {
+        "name": "Golden Delicious",
+        "ingredients": [
+            {"type": "Apple Brandy", "amount": "60", "unit": "ml"},
+            {"type": "Apple Brandy", "amount": "30", "unit": "ml"},
+            {"type": "Simple Syrup", "amount": "7.5", "unit": "ml"},
+            {"type": "Angostura Bitters", "amount": "2", "unit": "dash"}
+        ],
+        "garnishes": [
+            {"type": "Lemon Peel", "amount": "1", "unit": "twist"},
+        ],
+        "thumbnail": "jersey.png",
+        "description": "A refreshing cocktail combining hard cider, apple brandy, and a hint of bitters, garnished with lemon peel.",
+        "tags": ["Tart", "Refreshing"],
+        "id": 5
+    },
 }

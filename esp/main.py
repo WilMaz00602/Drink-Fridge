@@ -20,12 +20,12 @@ RESP_HEADER = {
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type",
     }
-data = {}
 
+drink_map = {}
 with open('drink_map.json', 'r') as file:
-    data = json.load(file)
+    drink_map = json.load(file)
 
-app = picoweb.WebApp("Drink Fridge v0.1")
+app = picoweb.WebApp("Drink Fridge Backend v0.1")
 
 @app.route("/")
 def index(req, resp):
@@ -39,9 +39,7 @@ def request_drink(req, resp):
     
     params = picoweb.utils.parse_qs(req.qs)
     drink_id = int(params.get("id"))
-    drink = next((d for d in data if d["id"] == drink_id), None)
-    #print("Drink ID: " + drink_id)
-    print("Data: ", data)
+    drink = next((d for d in drink_map if d["id"] == drink_id), None)
     
     yield from picoweb.start_response(resp, status="200", headers=RESP_HEADER)
     

@@ -1,0 +1,282 @@
+{
+    "spirits": [
+        {
+            "name": "Vodka",
+            "type": "Neutral Spirit",
+            "subtypes": [],
+            "abv": 40,
+            "origin": "Caribbean",
+            "description": "A clear, neutral spirit made from fermented grains or potatoes."
+        },
+        {
+            "name": "Gin",
+            "type": "Flavored Spirit",
+            "subtypes": ["London Dry", "Old Tom", "Plymouth"],
+            "abv": 40,
+            "origin": "Caribbean",
+            "description": "A spirit flavored with juniper berries and other botanicals."
+        },
+        {
+            "name": "Rum",
+            "type": "Sugarcane Spirit",
+            "subtypes": ["White", "Dark", "Spiced"],
+            "abv": 40,
+            "origin": "Caribbean",
+            "description": "A spirit made from sugarcane byproducts, typically aged in barrels."
+        },
+        {
+            "name": "Tequila",
+            "type": "Agave Spirit",
+            "subtypes": ["Blanco", "Reposado", "Añejo"],
+            "abv": 40,
+            "origin": "Mexico",
+            "description": "A Mexican spirit made from the blue agave plant."
+        },
+        {
+            "name": "Whiskey",
+            "type": "Grain Spirit",
+            "subtypes": ["Scotch", "Bourbon", "Irish", "Canadian"],
+            "abv": 40,
+            "origin": "Various",
+            "description": "A distilled alcoholic beverage made from fermented grain mash."
+        }
+    ],
+    "liqueurs": [
+         {
+            "name": "Orange Liqueur",
+            "type": "Citrus Liqueur",
+            "subtypes": ["Tripple Sec", "Cointreau", "Grand Marnier"],
+            "abv": 30,
+            "origin": "France",
+            "description": "An orange-flavored liqueur used in cocktails like the Margarita."
+        },
+        {
+            "name": "Amaretto",
+            "type": "Nut Liqueur",
+            "subtypes": [],
+            "abv": 28,
+            "origin": "Italy",
+            "description": "A sweet liqueur with almond and apricot kernel flavors."
+        },
+        {
+            "name": "Baileys Irish Cream",
+            "type": "Cream Liqueur",
+            "subtypes": [],
+            "abv": 17,
+            "origin": "Ireland",
+            "description": "A blend of Irish whiskey and cream, often used in coffee drinks."
+        },
+        {
+            "name": "Campari",
+            "type": "Bitter Liqueur",
+            "subtypes": [],
+            "abv": 25,
+            "origin": "Italy",
+            "description": "A bright red, bitter liqueur used in Negronis and spritzes."
+        },
+        {
+            "name": "Coffee Liqueur",
+            "type": "Coffee Liqueur",
+            "subtypes": ["Kahlúa"],
+            "abv": 20,
+            "origin": "Mexico",
+            "description": "A sweet coffee-flavored liqueur used in drinks like the White Russian."
+        }
+    ],
+    "syrups": [
+        {
+            "name": "Simple Syrup",
+            "type": "Sweetener",
+            "subtypes": ["1:1", "2:1", "3:1"],
+            "origin": "N/A",
+            "description": "A basic syrup made from sugar and water, used to sweeten cocktails."
+        },
+        {
+            "name": "Grenadine",
+            "type": "Fruit Syrup",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "A sweet, red syrup made from pomegranate, used in classics like the Shirley Temple."
+        },
+        {
+            "name": "Orgeat",
+            "type": "Nut Syrup",
+            "subtypes": [],
+            "origin": "France",
+            "description": "A sweet almond syrup with hints of orange blossom, used in Tiki drinks."
+        },
+        {
+            "name": "Honey Syrup",
+            "type": "Sweetener",
+            "subtypes": ["1:1", "2:1", "3:1"],
+            "origin": "N/A",
+            "description": "A diluted honey mix that blends easily into cocktails like the Bee's Knees."
+        }
+    ],
+    "bitters": [
+        {
+            "name": "Angostura Bitters",
+            "type": "Aromatic Bitters",
+            "subtypes": [],
+            "origin": "Trinidad and Tobago",
+            "description": "Classic cocktail bitters with a complex herbal flavor."
+        },
+        {
+            "name": "Orange Bitters",
+            "type": "Citrus Bitters",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "Bitters with a bright orange flavor, used in Martinis and Old Fashioneds."
+        },
+        {
+            "name": "Peychaud's Bitters",
+            "type": "Aromatic Bitters",
+            "subtypes": [],
+            "origin": "New Orleans, USA",
+            "description": "Bright red bitters with a unique flavor profile, essential in a Sazerac."
+        }
+    ],
+    "pantry": [
+        {
+            "name": "Salt",
+            "type": "Seasoning",
+            "subtypes": ["Kosher", "Sea"],
+            "origin": "Various",
+            "description": "Used for rimming glasses or enhancing flavor."
+        },
+        {
+            "name": "Sugar",
+            "type": "Sweetener",
+            "subtypes": ["White", "Brown"],
+            "origin": "Various",
+            "description": "Used in cocktails or to make syrups."
+        },
+        {
+            "name": "Spices",
+            "type": "Seasoning",
+            "subtypes": ["Cinnamon", "Nutmeg", "Clove"],
+            "origin": "Global",
+            "description": "Used to infuse syrups or garnish cocktails."
+        }
+    ],
+    "sodas": [
+        {
+            "name": "Club Soda",
+            "type": "Carbonated Water",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "Plain carbonated water, used in highballs and spritzers."
+        },
+        {
+            "name": "Tonic Water",
+            "type": "Bitter Soda",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "Soda with quinine, essential in Gin & Tonic."
+        },
+        {
+            "name": "Ginger Beer",
+            "type": "Spicy Soda",
+            "subtypes": [],
+            "origin": "Caribbean",
+            "description": "A strong ginger soda used in Mules and Dark 'n Stormy."
+        },
+        {
+            "name": "Cola",
+            "type": "Sweet Soda",
+            "subtypes": ["Coke", "Pepsi", "Mexican Cola"],
+            "origin": "USA",
+            "description": "Used in drinks like the Rum and Coke."
+        }
+    ],
+    "citrus": [
+        {
+            "name": "Lime",
+            "type": "Fruit",
+            "subtypes": [],
+            "origin": "Tropics",
+            "description": "Used for juice, wedges, or garnish."
+        },
+        {
+            "name": "Lemon",
+            "type": "Fruit",
+            "subtypes": [],
+            "origin": "Mediterranean",
+            "description": "Used for juice, slices, or peels."
+        },
+        {
+            "name": "Orange",
+            "type": "Fruit",
+            "subtypes": ["Navel", "Blood Orange"],
+            "origin": "Various",
+            "description": "Used for peels, juice, or twists in many cocktails."
+        },
+        {
+            "name": "Grapefruit",
+            "type": "Fruit",
+            "subtypes": [],
+            "origin": "USA",
+            "description": "Used for juice or garnish in bitter and refreshing drinks."
+        }
+    ],
+    "garnishes": [
+        {
+            "name": "Lime Wedge",
+            "type": "Citrus Garnish",
+            "subtypes": [],
+            "origin": "Tropics",
+            "description": "A small lime slice, commonly used on Margaritas, Mojitos, and Gin & Tonics."
+        },
+        {
+            "name": "Lemon Twist",
+            "type": "Citrus Garnish",
+            "subtypes": [],
+            "origin": "Mediterranean",
+            "description": "A thin peel of lemon zest, used to add aroma and visual appeal."
+        },
+        {
+            "name": "Orange Slice",
+            "type": "Citrus Garnish",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "A round slice of orange, used in drinks like the Old Fashioned and Negroni."
+        },
+        {
+            "name": "Cocktail Cherry",
+            "type": "Fruit Garnish",
+            "subtypes": ["Maraschino", "Luxardo"],
+            "origin": "Italy / USA",
+            "description": "Sweet cherries used in Manhattans, Old Fashioneds, and other classic cocktails."
+        },
+        {
+            "name": "Olive",
+            "type": "Savory Garnish",
+            "subtypes": [],
+            "origin": "Mediterranean",
+            "description": "A green or black olive, traditionally served in Martinis."
+        },
+        {
+            "name": "Mint Sprig",
+            "type": "Herbal Garnish",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "A fresh mint sprig adds aroma and freshness, especially in Mojitos and Juleps."
+        },
+        {
+            "name": "Cucumber Slice",
+            "type": "Vegetable Garnish",
+            "subtypes": [],
+            "origin": "Various",
+            "description": "Adds a fresh, cool element — common in Pimm's and Gin cocktails."
+        },
+        {
+            "name": "Cinnamon Stick",
+            "type": "Spice Garnish",
+            "subtypes": [],
+            "origin": "Asia",
+            "description": "Used in warm cocktails like Hot Toddies or as a stir stick in spiced drinks."
+        },
+        
+    ]
+
+}
